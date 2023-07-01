@@ -18,7 +18,7 @@ namespace xadrez_console_c
                     if(tab.peca(i, j) == null) 
                     { Console.Write("- "); }
                     else { 
-                    Console.Write(tab.peca(i,j));
+                    Console.Write(tab.peca(i,j)+" ");
                     }
                 }
                 Console.WriteLine();
