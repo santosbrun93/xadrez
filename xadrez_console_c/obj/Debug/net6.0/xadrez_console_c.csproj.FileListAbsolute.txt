@@ -1,0 +1,15 @@
+C:\Users\BRUNO\source\repos\xadrez_console_c\xadrez_console_c\bin\Debug\net6.0\xadrez_console_c.exe
+C:\Users\BRUNO\source\repos\xadrez_console_c\xadrez_console_c\bin\Debug\net6.0\xadrez_console_c.deps.json
+C:\Users\BRUNO\source\repos\xadrez_console_c\xadrez_console_c\bin\Debug\net6.0\xadrez_console_c.runtimeconfig.json
+C:\Users\BRUNO\source\repos\xadrez_console_c\xadrez_console_c\bin\Debug\net6.0\xadrez_console_c.dll
+C:\Users\BRUNO\source\repos\xadrez_console_c\xadrez_console_c\bin\Debug\net6.0\xadrez_console_c.pdb
+C:\Users\BRUNO\source\repos\xadrez_console_c\xadrez_console_c\obj\Debug\net6.0\xadrez_console_c.csproj.AssemblyReference.cache
+C:\Users\BRUNO\source\repos\xadrez_console_c\xadrez_console_c\obj\Debug\net6.0\xadrez_console_c.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\BRUNO\source\repos\xadrez_console_c\xadrez_console_c\obj\Debug\net6.0\xadrez_console_c.AssemblyInfoInputs.cache
+C:\Users\BRUNO\source\repos\xadrez_console_c\xadrez_console_c\obj\Debug\net6.0\xadrez_console_c.AssemblyInfo.cs
+C:\Users\BRUNO\source\repos\xadrez_console_c\xadrez_console_c\obj\Debug\net6.0\xadrez_console_c.csproj.CoreCompileInputs.cache
+C:\Users\BRUNO\source\repos\xadrez_console_c\xadrez_console_c\obj\Debug\net6.0\xadrez_console_c.dll
+C:\Users\BRUNO\source\repos\xadrez_console_c\xadrez_console_c\obj\Debug\net6.0\refint\xadrez_console_c.dll
+C:\Users\BRUNO\source\repos\xadrez_console_c\xadrez_console_c\obj\Debug\net6.0\xadrez_console_c.pdb
+C:\Users\BRUNO\source\repos\xadrez_console_c\xadrez_console_c\obj\Debug\net6.0\xadrez_console_c.genruntimeconfig.cache
+C:\Users\BRUNO\source\repos\xadrez_console_c\xadrez_console_c\obj\Debug\net6.0\ref\xadrez_console_c.dll
