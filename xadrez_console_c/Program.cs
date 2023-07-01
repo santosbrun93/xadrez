@@ -16,6 +16,8 @@ namespace xadrez_console_c
             Console.WriteLine("Posição: " + p.ToString());
             Console.WriteLine("Tabuleiro: " + tab.ToString());
             Console.WriteLine("Peca: " + peca.ToString());
+
+            Tela.imprimirTabuleiro(tab);
         }
     }
 
