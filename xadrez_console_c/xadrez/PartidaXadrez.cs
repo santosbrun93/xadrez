@@ -59,6 +59,28 @@ namespace xadrez
             }
         }
 
+        public Peca executaMovimento(Posicao origem, Posicao destino)
+        {
+
+            Peca p = tab.retirarPeca(origem);
+            p.incrementarQtdMovimentos();
+            Peca pecaCapturada = tab.retirarPeca(destino);
+            tab.colocarPeca(p, destino);
+            if (pecaCapturada != null)
+            {
+                capturadas.Add(pecaCapturada);
+            }
+
+            return pecaCapturada;
+        }
+
+        public void realizaJogada(Posicao origem, Posicao destino)
+        {   executaMovimento(origem, destino);
+            turno++;
+            mudaJogador();
+
+        }
+
         private void mudaJogador()
         {
             if (jogadorAtual == Cor.Branca)
@@ -122,14 +144,7 @@ namespace xadrez
             return null;
         }
 
-        public void realizaJogada(Posicao origem, Posicao destino)
-        {
-            Peca pecaCapturada = executaMovimento(origem, destino);
-
-            Peca p = tab.peca(destino);
-
-
-        }
+      
 
         public void colocarNovaPeca(char coluna, int linha, Peca peca)
         {
@@ -175,18 +190,6 @@ namespace xadrez
             colocarNovaPeca('h', 7, new Peao    (Cor.Preta, tab));
         }
 
-        public Peca executaMovimento(Posicao origem, Posicao destino) {
-
-            Peca p = tab.retirarPeca(origem);
-            p.incrementarQtdMovimentos();
-            Peca pecaCapturada = tab.retirarPeca(destino);
-            tab.colocarPeca(p, destino);
-            if (pecaCapturada != null)
-            {
-                capturadas.Add(pecaCapturada);
-            }
-
-            return pecaCapturada;
-        }
+        
     }
 }
